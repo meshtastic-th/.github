@@ -33,6 +33,7 @@ To operate legally in Thailand under **NBTC (กสทช.)** regulations for un
 
 ### 1. Hardware (อุปกรณ์)
 You need a LoRa board that supports **915MHz / 923MHz**. Do **not** buy 433MHz or 868MHz boards, as the antenna and chip are optimized for different frequencies.
+
 คุณต้องใช้อุปกรณ์ LoRa ที่รองรับคลื่น **915MHz / 923MHz** (ห้ามซื้อรุ่น 433MHz หรือ 868MHz เนื่องจากเสาอากาศและชิปจะไม่ตรงกับความถี่ใช้งานในไทย)
 
 ### 2. Flashing Firmware (การลงโปรแกรม)
@@ -46,6 +47,7 @@ You need a LoRa board that supports **915MHz / 923MHz**. Do **not** buy 433MHz o
 
 ### 3. Configuration (การตั้งค่า - สำคัญมาก!)
 Open the Meshtastic App (Android/iOS) and connect to your device via Bluetooth.
+
 เปิดแอป Meshtastic (Android/iOS) และเชื่อมต่อผ่าน Bluetooth
 
 1.  Go to **Radio Configuration** > **LoRa**.
@@ -61,6 +63,7 @@ Open the Meshtastic App (Android/iOS) and connect to your device via Bluetooth.
 ## Map & Community (แผนที่และชุมชน)
 
 We encourage users to keep their primary channel as default (`LongFast`) so everyone can communicate.
+
 เราแนะนำให้ผู้ใช้เปิดช่องหลักเป็นค่าเริ่มต้น (`LongFast`) เพื่อให้ทุกคนในเครือข่ายสามารถสื่อสารกันได้
 
 * **Map Visualization:** [Meshtastic Map](https://map.meshtastic.org)
@@ -69,10 +72,12 @@ We encourage users to keep their primary channel as default (`LongFast`) so ever
 ## Standard Channels (มาตรฐานช่องสัญญาณ)
 
 To ensure everyone can communicate, we use the default **LongFast** channel as the primary public channel for Thailand.
+
 เพื่อให้ทุกคนสามารถสื่อสารกันได้ เรากำหนดให้ช่อง **LongFast** เป็นช่องหลักสาธารณะสำหรับประเทศไทย
 
 ### Primary Channel: Public Chat (ช่องหลัก)
 Please keep your Slot 0 channel settings as follows.
+
 กรุณาตั้งค่าช่อง Slot 0 ของคุณตามนี้:
 
 | Setting (การตั้งค่า) | Value (ค่าที่กำหนด) | Description (คำอธิบาย) |
@@ -81,6 +86,7 @@ Please keep your Slot 0 channel settings as follows.
 | **Pre-Shared Key (PSK)** | **`Default` (`AQ==`)** | **Do not change!** Changing this separates you from the public mesh. <br> **ห้ามเปลี่ยน!** หากเปลี่ยนคีย์ คุณจะไม่สามารถคุยกับคนอื่นได้ |
 | **Uplink / Downlink** | **Enabled (เปิด)** | Required to sync messages with the Thailand MQTT network. <br> จำเป็นต้อง **เปิด** เพื่อให้ข้อความเชื่อมต่อกับเครือข่าย MQTT ของไทย |
 | **Modem Preset** | `LongFast` | Balances range and speed. (สมดุลระหว่างระยะทางและความเร็ว) |
+<img width="969" height="837" alt="Screenshot 2568-12-07 at 11 16 32" src="https://github.com/user-attachments/assets/6c128e34-b5e7-4116-b392-83ffe2a6406a" />
 
 > **Tip:** If you want a private conversation, add a **Secondary Channel** with a custom name and key instead of changing the Primary channel.  
 > **คำแนะนำ:** หากต้องการคุยส่วนตัว ให้เพิ่ม **Secondary Channel** (ช่องรอง) และตั้งรหัสผ่านใหม่ แทนการเปลี่ยนค่าในช่องหลัก
@@ -120,6 +126,7 @@ To create a unified Thailand network without the noise of global traffic, we use
 ## Contributing (การร่วมมือ)
 
 If you find a good location for a repeater or want to translate guides:
+
 หากคุณมีสถานที่ดีๆ สำหรับตั้งสถานีทวนสัญญาณ (Repeater) หรือต้องการช่วยแปลคู่มือ:
 
 1.  Fork this repository.
