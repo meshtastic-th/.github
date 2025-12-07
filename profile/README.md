@@ -158,6 +158,7 @@ Users are solely responsible for ensuring their devices and usage comply with th
 ## 🔗 Links & Resources (ลิงก์และแหล่งข้อมูล)
 * [Official Meshtastic Documentation](https://meshtastic.org/docs/getting-started)
 * [NBTC Thailand (กสทช.)](https://www.nbtc.go.th/)
+* [Meshtastic for Makers Youtube Channel](https://www.youtube.com/watch?v=qjJIVBOWvfc&list=PLPK2l9Knytg6jzOfcqk5y0iBH48ZATVVD)
 
 ---
 *Created with ❤️ for the Thai Maker Community.*
